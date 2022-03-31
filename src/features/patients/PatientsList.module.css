@@ -1,0 +1,45 @@
+.PatientList {
+  height: calc(100vh - 32px);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TableContainer {
+  flex-grow: 1;
+}
+
+.VirtualListContainer {
+  width: 100%;
+  position: relative;
+}
+
+.PatientListItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+};
+
+.tableRow {
+  cursor: pointer;
+}
+
+.tableRowHover:hover {
+  background-color: rgba(0,0,0,.1);
+  cursor: pointer;
+}
+
+.tableCell {
+  flex: 1;
+}
+
+.noClick {
+  cursor: initial;
+}
